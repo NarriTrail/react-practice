@@ -1,0 +1,74 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   width: 100%;
+    border: solid 1px red;
+    justify-items: center;
+}
+.child{
+    width: 180px;
+    align-self: center;
+    justify-content: center;
+    border: solid ;
+}
+.cocktailData{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5px;
+}
+.cocktailData li img{
+    width: 100%;
+}
+.cockDrinks{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5px;
+}
+.cockDrinks li img{
+    width: 250px;
+}
+.card{
+    border: solid 1px orange;
+    margin-top: 5px;
+    padding: 3px;
+}
+.productItem{
+    border: solid 2px red;
+    list-style: none;
+}
+.productItem img{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    
+}
+.productContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4px;
+}
+.products{
+    width: 300px;
+    height: 400px;
+    border: solid 2px red;
+    list-style: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+.products img{
+    width: 160px;
+    height: 200px;
+    margin-left: 10px;
+}
+.proparent{
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}
+.products p{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 30rem;
+}
